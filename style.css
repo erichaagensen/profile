@@ -1,0 +1,147 @@
+body {
+  /*background-color: #D0DECC;*/
+  background-image: url(images/tunnelgif.gif);
+}
+
+.profile-pic {
+  object-fit: cover;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
+.movie-poster {
+  height: 400px;
+  width: auto;
+  border-radius: 5%;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px lightgrey;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-image: url(images/matrixgif.gif);
+}
+
+.description {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px lightgrey;
+}
+
+.description p {
+  color: black;
+}
+
+.bluepill {
+  display: inline-block;
+  position:relative;
+}
+
+.redpill {
+  display: inline-block;
+  position:relative;
+  animation:scale 3s linear infinite;
+}
+
+@keyframes scale {
+  100% {transform: scale(4,4)}
+}
+
+.redpill:hover .pill {
+  /*box-shadow: 2px 2px 5px #FF0043;*/
+  filter: blur(5px);
+}
+
+.bluepill:hover .pill {
+  /*box-shadow: 2px 2px 5px #FF0043;*/
+  filter: blur(5px);
+}
+
+
+
+.pill-text {
+  color: white;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+td {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+h1 {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+h2, h3, h4, a {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #6EFF40;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+table {
+  margin: auto;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: 'VT323', monospace;
+}
+
+
+
+
+
+
